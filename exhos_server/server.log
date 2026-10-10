@@ -1,0 +1,208 @@
+[2026-09-16 20:06:56] 
+----- FORM SUBMISSION -----
+Amount:        Some("$ 9999")
+Card Number:   Some("9999")
+Expiration:    Some("99999")
+CVV:           Some("9999")
+Name:          Some("999999")
+Address:       Some("99999")
+City:          Some("99999")
+State:         Some("9999999")
+Zip:           Some("9999")
+Phone:         Some("99999")
+IP Address:    127.0.0.1
+----------------------------
+
+[2026-09-16 20:09:16] GET "GET /"
+[2026-09-16 20:09:16] GET "GET /favicon.ico"
+[2026-09-16 20:09:27] POST "POST /submit"
+[2026-09-16 20:09:27] 
+----- FORM SUBMISSION -----
+Amount:        $ 0000
+Card Number:   0000
+Expiration:    0000
+CVV:           000
+Name:          0000
+Address:       00000
+City:          0000
+State:         00000000
+Zip:           000
+Phone:         000
+IP Address:    127.0.0.1
+----------------------------
+
+unknown - - [16/Sep/2026:20:11:35 -0500] "GET / HTTP/1.1" 200
+unknown - - [16/Sep/2026:20:11:35 -0500] "GET /favicon.ico HTTP/1.1" 404
+[2026-09-16 20:11:53] 
+[!] NEW SUBMISSION [!]
+--------------------------------------------
+Amount:      $ 7777
+Card:        7777777
+Exp/CVV:     77777 / 7777
+Name:        77777777
+Address:     777, 777777, 7777, 7777
+Phone:       77777
+IP:          127.0.0.1
+--------------------------------------------
+
+unknown - - [16/Sep/2026:20:11:53 -0500] "POST /submit HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:16:18 -0500] "GET / HTTP/1.1" 200
+[2026-09-16 20:16:37] 
+[1m[33m==================== NEW SUBMISSION ====================[0m
+[1mAmount:      [0m $ 6666              
+[1mCard Number: [0m 666                 
+[1mExpiration:  [0m 6666                
+[1mCVV:          [0m 6666                
+[1mName:         [0m 6666                
+[1mAddress:     [0m 6666                
+[1mCity:         [0m 6666                
+[1mState:        [0m 666                 
+[1mZip:          [0m 666                 
+[1mPhone:        [0m 666                 
+[1mIP Address:   [0m 127.0.0.1           
+[1m[33m======================================================[0m
+
+127.0.0.1 - - [16/Sep/2026:20:16:37 -0500] "POST /submit HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:17:19 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:17:24 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:17:27 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:17:28 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:19:10 -0500] "GET / HTTP/1.1" 200
+[2026-09-16 20:19:20] 
+[1m[33m==================== NEW SUBMISSION ====================[0m
+[1mAmount:      [0m $ 111               
+[1mCard Number: [0m 1                   
+[1mExpiration:  [0m 1                   
+[1mCVV:          [0m 1                   
+[1mName:         [0m 1                   
+[1mAddress:     [0m 1                   
+[1mCity:         [0m 1                   
+[1mState:        [0m 1                   
+[1mZip:          [0m 1                   
+[1mPhone:        [0m 1                   
+[1mIP Address:   [0m 127.0.0.1           
+[1m[33m======================================================[0m
+
+127.0.0.1 - - [16/Sep/2026:20:19:20 -0500] "POST /submit HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:22:19 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:20:22:19 -0500] "GET /favicon.ico HTTP/1.1" 404
+[2026-09-16 20:22:32] 
+[33m************************************************************[0m
+[1m[+] NEW SUBMISSION RECEIVED[0m
+[33m************************************************************[0m
+[1mAmount:      [0m $ 0.007777
+[1mCard Number:  [0m 7777
+[1mExpiration:   [0m 777
+[1mCVV:          [0m 777
+[1mName:         [0m 777
+[1mAddress:      [0m 7777
+[1mCity:         [0m 7777
+[1mState:        [0m 777
+[1mZip:          [0m 777
+[1mPhone:        [0m 777
+[1mIP Address:   [0m 127.0.0.1
+[33m************************************************************[0m
+
+127.0.0.1 - - [16/Sep/2026:20:22:32 -0500] "POST /submit HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:08:50 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:08:51 -0500] "GET /favicon.ico HTTP/1.1" 404
+127.0.0.1 - - [16/Sep/2026:22:10:44 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:10:45 -0500] "GET /favicon.ico HTTP/1.1" 404
+[2026-09-16 22:10:54] 
+[33m************************************************************[0m
+[1m[+] NEW SUBMISSION RECEIVED[0m
+[33m************************************************************[0m
+[1mAmount:      [0m $ 0.009999
+[1mCard Number:  [0m 999
+[1mExpiration:   [0m 99999
+[1mCVV:          [0m 9999
+[1mName:         [0m 9999
+[1mAddress:      [0m 9999
+[1mCity:         [0m 999
+[1mState:        [0m 999
+[1mZip:          [0m 9999
+[1mPhone:        [0m 999
+[1mIP Address:   [0m 127.0.0.1
+[33m************************************************************[0m
+
+127.0.0.1 - - [16/Sep/2026:22:10:54 -0500] "POST /submit HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:11:25 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:11:27 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:11:28 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:11:29 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:11:30 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:11:31 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:11:32 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:15:34 -0500] "GET / HTTP/1.1" 200
+[2026-09-16 22:15:43] [33m[+] NEW SUBMISSION: Amount: $ 0.007777, Card: 7777, Exp: 777, CVV: 777, Name: 77777777, Address: 777, City: 777, State: 777, Zip: 77777, Phone: 777, IP: 127.0.0.1[0m
+127.0.0.1 - - [16/Sep/2026:22:15:43 -0500] "POST /submit HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:16:08 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:16:09 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:16:10 -0500] "GET / HTTP/1.1" 200
+127.0.0.1 - - [16/Sep/2026:22:16:11 -0500] "GET / HTTP/1.1" 200
+[2026-09-16 22:20:12] [32m[GET] 127.0.0.1 / 200[0m
+[2026-09-16 22:22:54] REQUEST: GET / from 127.0.0.1
+[2026-09-16 22:22:54] RESPONSE: / -> 200
+[2026-09-16 22:22:54] REQUEST: GET /favicon.ico from 127.0.0.1
+[2026-09-16 22:22:54] RESPONSE: /favicon.ico -> 404
+[2026-09-16 22:22:57] REQUEST: GET / from 127.0.0.1
+[2026-09-16 22:22:57] RESPONSE: / -> 200
+[2026-09-16 22:22:57] REQUEST: GET / from 127.0.0.1
+[2026-09-16 22:22:57] RESPONSE: / -> 200
+[2026-09-16 22:22:58] REQUEST: GET / from 127.0.0.1
+[2026-09-16 22:22:58] RESPONSE: / -> 200
+[22:51:46] REQUEST      GET / from 127.0.0.1
+[22:51:46] RESPONSE     / -> 200
+[22:51:47] REQUEST      GET /favicon.ico from 127.0.0.1
+[22:51:47] RESPONSE     /favicon.ico -> 404
+[22:51:48] REQUEST      GET / from 127.0.0.1
+[22:51:48] RESPONSE     / -> 200
+[22:51:49] REQUEST      GET / from 127.0.0.1
+[22:51:49] RESPONSE     / -> 200
+[22:51:50] REQUEST      GET / from 127.0.0.1
+[22:51:50] RESPONSE     / -> 200
+[04:06:27] REQUEST      GET / from 127.0.0.1
+[04:06:27] RESPONSE     / -> 200
+[04:06:28] REQUEST      GET /favicon.ico from 127.0.0.1
+[04:06:28] RESPONSE     /favicon.ico -> 404
+[04:06:39] REQUEST      POST /submit from 127.0.0.1
+[04:06:39] SUBMIT       [+] SUBMISSION: Amt: $ 90.0099, Card: 9, Exp: 9, CVV: 4, Name: 3, Addr: 3, City: 3, State: 3, Zip: 4, Phone: 3, IP: 127.0.0.1
+[04:06:39] RESPONSE     /submit -> 200
+[18:54:02] REQUEST      GET / from 127.0.0.1
+[18:54:02] RESPONSE     / -> 200
+[18:54:04] REQUEST      GET /favicon.ico from 127.0.0.1
+[18:54:04] RESPONSE     /favicon.ico -> 404
+[20:08:10] REQUEST      GET / from 127.0.0.1
+[20:08:10] RESPONSE     / -> 200
+[20:08:11] REQUEST      GET /favicon.ico from 127.0.0.1
+[20:08:11] RESPONSE     /favicon.ico -> 404
+[23:01:58] REQUEST      POST /submit from 127.0.0.1
+[23:01:58] SUBMIT       [+] SUBMISSION: Amt: $ 0.0999999990, Card: 9999999999999999999, Exp: 88888, CVV: 7666, Name: 66666666666666666666666666, Addr: 44444444444444444444444, City: 3333333333, State: 222222, Zip: 11111111, Phone: 888888888888, IP: 127.0.0.1
+[23:01:58] RESPONSE     /submit -> 200
+[23:02:45] REQUEST      POST /submit from 127.0.0.1
+[23:02:45] SUBMIT       [+] SUBMISSION: Amt: $ 0.0999999990, Card: 9999999999999999999, Exp: 88888, CVV: 7666, Name: 66666666666666666666666666, Addr: 44444444444444444444444, City: 3333333333, State: 222222, Zip: 11111111, Phone: 888888888888, IP: 127.0.0.1
+[23:02:45] RESPONSE     /submit -> 200
+[23:02:50] REQUEST      POST /submit from 127.0.0.1
+[23:02:50] SUBMIT       [+] SUBMISSION: Amt: $ 0.0999999990, Card: 9999999999999999999, Exp: 88888, CVV: 7666, Name: 66666666666666666666666666, Addr: 44444444444444444444444, City: 3333333333, State: 222222, Zip: 11111111, Phone: 888888888888, IP: 127.0.0.1
+[23:02:50] RESPONSE     /submit -> 200
+[23:02:54] REQUEST      GET / from 127.0.0.1
+[23:02:54] RESPONSE     / -> 200
+[23:02:55] REQUEST      GET / from 127.0.0.1
+[23:02:55] RESPONSE     / -> 200
+[23:02:56] REQUEST      GET / from 127.0.0.1
+[23:02:56] RESPONSE     / -> 200
+[23:02:56] REQUEST      GET / from 127.0.0.1
+[23:02:56] RESPONSE     / -> 200
+[23:02:56] REQUEST      GET / from 127.0.0.1
+[23:02:56] RESPONSE     / -> 200
+[23:02:56] REQUEST      GET / from 127.0.0.1
+[23:02:56] RESPONSE     / -> 200
+[23:02:56] REQUEST      GET / from 127.0.0.1
+[23:02:56] RESPONSE     / -> 200
+[21:41:07] REQUEST      GET / from 127.0.0.1
+[21:41:07] RESPONSE     / -> 200
+[21:41:07] REQUEST      GET /favicon.ico from 127.0.0.1
+[21:41:07] RESPONSE     /favicon.ico -> 404
+[21:41:17] REQUEST      POST /submit from 127.0.0.1
+[21:41:17] SUBMIT       [+] SUBMISSION: Amt: $ 0.0079817389, Card: jgh gu, Exp: kygf , CVV: yukg, Name:  fgyu fyk f, Addr:  fkfl yuf, City:  ff fl, State: yjl fgl yuyulgy, Zip: ky fkuyf, Phone: kyuf yukf yu, IP: 127.0.0.1
+[21:41:17] RESPONSE     /submit -> 200
